@@ -87,6 +87,7 @@ h2{
     padding: 100px 20px;
     margin: 50px 40px;
     color: rgb(59, 185, 9);
+    height: 100vh;
 }
 .about p{
     padding: 25px 0;
@@ -101,7 +102,7 @@ h2{
     align-items: center;
     width: 100%;
     padding: 10px;
-    
+    height: 100vh;   
 }
 .cont p{
     padding: 10px 0;
@@ -114,7 +115,8 @@ h2{
     width: 80%;
     margin: 50px auto;
     text-align: left;
-    color: white;   
+    color: white; 
+    height: 100vh;
 }
 .project ul li,.skill ul li{
     list-style-type: none;
@@ -124,14 +126,14 @@ h2{
     margin: 15px;
     padding: 20px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
     color: rgba(241, 238, 16, 0.87);
     backdrop-filter: blur(25px);
     transition: all 0.8s ease;
 }
 .project ul li p{
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
 }
 .skill ul li:hover{
     background-color: rgb(235, 132, 14);
